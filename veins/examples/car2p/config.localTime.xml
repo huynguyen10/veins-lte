@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<LocalTimeModels>
+		<LocalTimeModel type="J48">
+			<!-- Window length = 0.1 -->
+			<ClassificationConfig name="f_10.0,wl_0.1">
+				<parameter name="mean" type="double" value="0.6092375"/>
+				<parameter name="sd" type="double" value="0.1607918"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_16.0,wl_0.1">
+				<parameter name="mean" type="double" value="0.6162793"/>
+				<parameter name="sd" type="double" value="0.1479182"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_32.0,wl_0.1">
+				<parameter name="mean" type="double" value="0.6752243"/>
+				<parameter name="sd" type="double" value="0.1607918"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_50.0,wl_0.1">
+				<parameter name="mean" type="double" value="0.7289049"/>
+				<parameter name="sd" type="double" value="0.2022054"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_100.0,wl_0.1">
+				<parameter name="mean" type="double" value="0.7088688"/>
+				<parameter name="sd" type="double" value="0.2778935"/>
+			</ClassificationConfig>
+			<!-- Window length = 0.2 -->
+			<ClassificationConfig name="f_10.0,wl_0.2">
+				<parameter name="mean" type="double" value="0.7172302"/>
+				<parameter name="sd" type="double" value="0.0911119"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_16.0,wl_0.2">
+				<parameter name="mean" type="double" value="0.7765490"/>
+				<parameter name="sd" type="double" value="0.1135484"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_32.0,wl_0.2">
+				<parameter name="mean" type="double" value="1.0592743"/>
+				<parameter name="sd" type="double" value="0.1547510"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_50.0,wl_0.2">
+				<parameter name="mean" type="double" value="1.1758581"/>
+				<parameter name="sd" type="double" value="0.1841727"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_100.0,wl_0.2">
+				<parameter name="mean" type="double" value="1.3822673"/>
+				<parameter name="sd" type="double" value="0.6056108"/> 
+			</ClassificationConfig>
+			<!-- Window length = 0.5 -->
+			<ClassificationConfig name="f_10.0,wl_0.5">
+				<parameter name="mean" type="double" value="0.9746575"/>
+				<parameter name="sd" type="double" value="0.1339082"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_16.0,wl_0.5">
+				<parameter name="mean" type="double" value="1.1397329"/>
+				<parameter name="sd" type="double" value="0.1374995"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_32.0,wl_0.5">
+				<parameter name="mean" type="double" value="1.8041949"/>
+				<parameter name="sd" type="double" value="0.3101524"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_50.0,wl_0.5">
+				<parameter name="mean" type="double" value="2.3455045"/>
+				<parameter name="sd" type="double" value="0.2782396"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_100.0,wl_0.5">
+				<parameter name="mean" type="double" value="3.2824893"/>
+				<parameter name="sd" type="double" value="1.4314402"/> 
+			</ClassificationConfig>
+			<!-- Window length = 1.0 -->
+			<ClassificationConfig name="f_10.0,wl_1.0">
+				<parameter name="mean" type="double" value="1.2603138"/>
+				<parameter name="sd" type="double" value="0.1205756"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_16.0,wl_1.0">
+				<parameter name="mean" type="double" value="1.5586148"/>
+				<parameter name="sd" type="double" value="0.1337609"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_32.0,wl_1.0">
+				<parameter name="mean" type="double" value="2.7400406"/>
+				<parameter name="sd" type="double" value="0.3269264"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_50.0,wl_1.0">
+				<parameter name="mean" type="double" value="3.8929644"/>
+				<parameter name="sd" type="double" value="0.5704890"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_100.0,wl_1.0">
+				<parameter name="mean" type="double" value="6.5163396"/>
+				<parameter name="sd" type="double" value="2.5007898"/>
+			</ClassificationConfig>
+			<!-- Window length = 1.5 -->
+			<ClassificationConfig name="f_10.0,wl_1.5">
+				<parameter name="mean" type="double" value="1.5779854"/>
+				<parameter name="sd" type="double" value="0.1520889"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_16.0,wl_1.5">
+				<parameter name="mean" type="double" value="2.0648567"/>
+				<parameter name="sd" type="double" value="0.1481241"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_32.0,wl_1.5">
+				<parameter name="mean" type="double" value="3.6439282"/>
+				<parameter name="sd" type="double" value="0.3772950"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_50.0,wl_1.5">
+				<parameter name="mean" type="double" value="5.2861049"/>
+				<parameter name="sd" type="double" value="1.7332137"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_100.0,wl_1.5">
+				<parameter name="mean" type="double" value="9.4584771"/>
+				<parameter name="sd" type="double" value="3.9543702"/> 
+			</ClassificationConfig>
+			<!-- Window length = 2.0 -->
+			<ClassificationConfig name="f_10.0,wl_2.0">
+				<parameter name="mean" type="double" value="1.8418796"/>
+				<parameter name="sd" type="double" value="0.1960291"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_16.0,wl_2.0">
+				<parameter name="mean" type="double" value="2.5346565"/>
+				<parameter name="sd" type="double" value="0.2140843"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_32.0,wl_2.0">
+				<parameter name="mean" type="double" value="4.6510757"/>
+				<parameter name="sd" type="double" value="0.4868499"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_50.0,wl_2.0">
+				<parameter name="mean" type="double" value="7.3934437"/>
+				<parameter name="sd" type="double" value="1.6054566"/>
+			</ClassificationConfig>
+			<ClassificationConfig name="f_100.0,wl_2.0">
+				<parameter name="mean" type="double" value="11.8921064"/>
+				<parameter name="sd" type="double" value="5.1279560"/>
+			</ClassificationConfig>
+		</LocalTimeModel>
+		<LocalTimeModel type="KNN">
+			<ClassificationConfig name="f_100.0,wl_2.0">
+				<parameter name="mean" type="double" value="14.495123"/>
+				<parameter name="sd" type="double" value="3.2377007"/>
+			</ClassificationConfig>
+		</LocalTimeModel>
+		<LocalTimeModel type="NaiveBayes">
+			<ClassificationConfig name="f_100.0,wl_2.0">
+				<parameter name="mean" type="double" value="14.495123"/>
+				<parameter name="sd" type="double" value="3.2377007"/>
+			</ClassificationConfig>
+		</LocalTimeModel>	
+	</LocalTimeModels>
+</root>

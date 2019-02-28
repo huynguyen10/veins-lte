@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mo 22 Okt 2018 16:01:42 CEST by Netedit Version 0.30.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="scenario.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="scenario.net.xml"/>
+    </output>
+
+    <processing>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+        <rectangular-lane-cut value="false"/>
+    </processing>
+
+</configuration>
+-->
+
+<net version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="-500.00,-100.00,500.00,100.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":C_0" function="internal">
+        <lane id=":C_0_0" index="0" disallow="pedestrian" speed="100.00" length="7.00" shape="3.50,4.95 -3.50,4.95"/>
+        <lane id=":C_0_1" index="1" disallow="pedestrian" speed="100.00" length="7.00" shape="3.50,1.65 -3.50,1.65"/>
+    </edge>
+    <edge id=":C_2" function="internal">
+        <lane id=":C_2_0" index="0" disallow="pedestrian" speed="100.00" length="7.00" shape="-3.50,-4.95 3.50,-4.95"/>
+        <lane id=":C_2_1" index="1" disallow="pedestrian" speed="100.00" length="7.00" shape="-3.50,-1.65 3.50,-1.65"/>
+    </edge>
+    <edge id=":C_c0" function="crossing" crossingEdges="CR RC">
+        <lane id=":C_c0_0" index="0" allow="pedestrian" speed="1.00" length="13.10" width="7.00" shape="0.00,-6.55 0.00,6.55"/>
+    </edge>
+    <edge id=":C_w0" function="walkingarea">
+        <lane id=":C_w0_0" index="0" allow="pedestrian" speed="1.00" length="1.50" width="7.00" shape="-2.00,8.05 2.00,8.05 3.50,6.55 -3.50,6.55"/>
+    </edge>
+    <edge id=":C_w1" function="walkingarea">
+        <lane id=":C_w1_0" index="0" allow="pedestrian" speed="1.00" length="1.50" width="7.00" shape="-3.50,-6.55 3.50,-6.55 2.00,-8.05 -2.00,-8.05"/>
+    </edge>
+
+    <edge id="CL" from="C" to="L" priority="1">
+        <lane id="CL_0" index="0" disallow="pedestrian" speed="100.00" length="496.50" shape="-3.50,4.95 -500.00,4.95"/>
+        <lane id="CL_1" index="1" disallow="pedestrian" speed="100.00" length="496.50" shape="-3.50,1.65 -500.00,1.65"/>
+    </edge>
+    <edge id="CR" from="C" to="R" priority="1">
+        <lane id="CR_0" index="0" disallow="pedestrian" speed="100.00" length="496.50" shape="3.50,-4.95 500.00,-4.95"/>
+        <lane id="CR_1" index="1" disallow="pedestrian" speed="100.00" length="496.50" shape="3.50,-1.65 500.00,-1.65"/>
+    </edge>
+    <edge id="CU" from="U" to="C" priority="1" spreadType="center">
+        <lane id="CU_0" index="0" allow="pedestrian" speed="15.00" length="91.95" width="4.00" shape="0.00,100.00 0.00,8.05"/>
+    </edge>
+    <edge id="DC" from="D" to="C" priority="1" spreadType="center">
+        <lane id="DC_0" index="0" allow="pedestrian" speed="15.00" length="91.95" width="4.00" shape="0.00,-100.00 0.00,-8.05"/>
+    </edge>
+    <edge id="LC" from="L" to="C" priority="1">
+        <lane id="LC_0" index="0" disallow="pedestrian" speed="100.00" length="496.50" shape="-500.00,-4.95 -3.50,-4.95"/>
+        <lane id="LC_1" index="1" disallow="pedestrian" speed="100.00" length="496.50" shape="-500.00,-1.65 -3.50,-1.65"/>
+    </edge>
+    <edge id="RC" from="R" to="C" priority="1">
+        <lane id="RC_0" index="0" disallow="pedestrian" speed="100.00" length="496.50" shape="500.00,4.95 3.50,4.95"/>
+        <lane id="RC_1" index="1" disallow="pedestrian" speed="100.00" length="496.50" shape="500.00,1.65 3.50,1.65"/>
+    </edge>
+
+    <junction id="C" type="priority" x="0.00" y="0.00" incLanes="CU_0 RC_0 RC_1 DC_0 LC_0 LC_1 :C_w1_0" intLanes=":C_0_0 :C_0_1 :C_2_0 :C_2_1 :C_c0_0" shape="-2.00,8.05 2.00,8.05 3.50,6.55 3.50,-6.55 2.00,-8.05 -2.00,-8.05 -3.50,-6.55 -3.50,6.55">
+        <request index="0" response="00000" foes="10000" cont="0"/>
+        <request index="1" response="00000" foes="10000" cont="0"/>
+        <request index="2" response="00000" foes="10000" cont="0"/>
+        <request index="3" response="00000" foes="10000" cont="0"/>
+        <request index="4" response="01111" foes="01111" cont="0"/>
+    </junction>
+    <junction id="D" type="dead_end" x="0.00" y="-100.00" incLanes="" intLanes="" shape="-2.00,-100.00 2.00,-100.00"/>
+    <junction id="L" type="dead_end" x="-500.00" y="0.00" incLanes="CL_0 CL_1" intLanes="" shape="-500.00,-0.05 -500.00,6.55 -500.00,0.05"/>
+    <junction id="R" type="dead_end" x="500.00" y="0.00" incLanes="CR_0 CR_1" intLanes="" shape="500.00,0.05 500.00,-6.55 500.00,-0.05"/>
+    <junction id="U" type="dead_end" x="0.00" y="100.00" incLanes="" intLanes="" shape="2.00,100.00 -2.00,100.00"/>
+
+    <connection from="LC" to="CR" fromLane="0" toLane="0" via=":C_2_0" dir="s" state="M"/>
+    <connection from="LC" to="CR" fromLane="1" toLane="1" via=":C_2_1" dir="s" state="M"/>
+    <connection from="RC" to="CL" fromLane="0" toLane="0" via=":C_0_0" dir="s" state="M"/>
+    <connection from="RC" to="CL" fromLane="1" toLane="1" via=":C_0_1" dir="s" state="M"/>
+
+    <connection from=":C_0" to="CL" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":C_0" to="CL" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":C_2" to="CR" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":C_2" to="CR" fromLane="1" toLane="1" dir="s" state="M"/>
+
+    <connection from=":C_c0" to=":C_w0" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from="CU" to=":C_w0" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":C_w1" to=":C_c0" fromLane="0" toLane="0" dir="s" state="m"/>
+    <connection from="DC" to=":C_w1" fromLane="0" toLane="0" dir="s" state="M"/>
+</net>

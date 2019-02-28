@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+
+    <input>
+        <net-file value="scenario.net.xml"/>
+        <route-files value="scenario.rou.xml"/>
+        <!--<additional-files value="scenario.poly.xml"/>-->
+    </input>
+
+    <time>
+        <step-length value=".1"/>
+    </time>
+
+    <gui_only>
+        <quit-on-end value="true"/>
+        <start value="true"/>
+        <gui-settings-file value="gui.settings.xml"/>
+    </gui_only>
+
+</configuration>
